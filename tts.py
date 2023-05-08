@@ -33,7 +33,7 @@ def play_audio(filename):
     data = wf.readframes(chunk)
 
     # Play the sound by writing the audio data to the stream
-    while data != '':
+    while data != b'':
         stream.write(data)
         data = wf.readframes(chunk)
 
