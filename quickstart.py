@@ -11,7 +11,7 @@ from googleapiclient.errors import HttpError
 # If modifying these scopes, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = #
 
 def chatbot(input_text):
     index = GPTSimpleVectorIndex.load_from_disk('index.json')
