@@ -2,7 +2,7 @@ from llama_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorInde
 from langchain.chat_models import ChatOpenAI
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = #
 
 def construct_index(directory_path):
     max_input_size = 4096
