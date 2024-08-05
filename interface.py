@@ -4,7 +4,7 @@ import gradio as gr
 import sys
 import os
 
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = #
 
 def chatbot(input_text):
     index = GPTSimpleVectorIndex.load_from_disk('index.json')
